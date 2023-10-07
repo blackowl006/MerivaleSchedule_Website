@@ -1,0 +1,63 @@
+<html>
+   <head>
+     <title>
+       Merivale High School Schedule
+     </title>
+      <style>
+         body{
+                background-color:rgb(128,0,0);
+            
+            }
+          
+          #Container{
+                border-top:10px Solid White;
+                
+          #Top{
+                background-color:rgb(255, 158, 192);
+                font-family:Arial Narrow;
+                font-size:18px;
+            }
+          #Sub{
+                background-color:rgb(255, 204, 255);
+                font-family:Courier;
+                font-size:16px;
+            }
+            
+          #title{background-color:rgb(255, 0, 0);
+                font-family:Arial Narrow;
+                font-size:30px;
+          }
+          
+          #Picture{
+            position:absolute;
+            top:70px;
+            left:70px;
+          }
+          
+      </style>
+   </head>
+   <body>
+     <div id = "Container">
+        <div id="Top">
+          <h1>Here is the Schedule for October 2023</h1>
+          </div>
+        <div id="Sub">
+        <h2>Here is the current status:</h2>
+        </div>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script type="text/javascript">
+    window.onload=function(){/*from   w ww .ja v a  2  s . c o m*/
+var d = new Date().getDay();
+var titles = ['title 1', 'title 2', 'title 3', 'title 4', 'title 5', 'Weekend', 'Weekend','Holiday','Day 4','Day 1','Day 2','Day 3','Weekend', 'Weekend','Day 4','Day 1','Day 2','Day 3','Day 4','Weekend', 'Weekend','Day 1','Day 2','Day 3','Day 4','Day 1','Weekend', 'Weekend','Day 2','Day 3','Day 4','Day 1','Day 2','Weekend', 'Weekend', ];
+document.getElementById("title").innerHTML = titles[d-1];
+    }
+
+      </script>
+      <div id="title">
+      </div>
+      </div>
+      <div id ="Picture"> <img src="https://yt3.googleusercontent.com/5ENYJaGAgbdd9RG85v_w4oIrhITQBCuwwlaYRKLZ0A6c3KLHPj3HUy22Rzhpe-qffKBNWtA7-Q=s900-c-k-c0x00ffffff-no-rj" width="150px" alt="OCDSB"/>
+            
+            </div>
+   </body>
+</html>
